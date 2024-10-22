@@ -13,7 +13,7 @@ export default function PasswordStrengthGame() {
 
   const evaluatePassword = (pass: string) => {
     let newScore = 0
-    let newFeedback: string[] = []
+    const newFeedback: string[] = []
 
     // Length check
     if (pass.length >= 8) {

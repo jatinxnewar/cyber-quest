@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { ShieldCheck, Zap, Users, Gamepad2 } from "lucide-react";
+import { ShieldCheck } from "lucide-react";
 
 function Navbar() {
   return (

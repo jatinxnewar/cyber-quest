@@ -7,7 +7,6 @@ import pass from "../../../public/pass.jpg";
 import surfer from "../../../public/surfer.jpg";
 import Navbar from "../Navbar";
 
-import { ShieldCheck, Zap, Users, Gamepad2 } from "lucide-react";
 
 function Adventure() {
   return (
