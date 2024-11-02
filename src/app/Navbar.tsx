@@ -36,6 +36,12 @@ function Navbar() {
         >
           About
         </Link>
+        <Link
+          className="text-sm font-medium hover:text-blue-400 transition-colors"
+          href="/about"
+        >
+          Login
+        </Link>
       </nav>
     </header>
   );
