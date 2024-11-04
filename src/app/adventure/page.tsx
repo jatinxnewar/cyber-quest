@@ -7,14 +7,13 @@ import pass from "../../../public/pass.jpg";
 import surfer from "../../../public/surfer.jpg";
 import Navbar from "../Navbar";
 
-
 function Adventure() {
   return (
     <>
       <Navbar />
       <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-gray-800">
         <div className="container px-4 md:px-6">
-          <div className="grid gap-1 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
+          <div className="grid gap-8 lg:grid-cols-[1fr_500px] xl:grid-cols-[1fr_700px]">
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-blue-400">
@@ -35,10 +34,10 @@ function Adventure() {
             <Link href={"/phish"}>
               <Image
                 alt="Cybersecurity Illustration"
-                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center"
-                height="650"
+                className="mx-auto rounded-2xl object-cover"
+                height="700"
                 src={phish}
-                width="550"
+                width="700"
               />
             </Link>
           </div>
@@ -46,14 +45,14 @@ function Adventure() {
       </section>
       <section className="w-full py-1 md:py-24 lg:py-32 xl:py-10 bg-gray-800">
         <div className="container px-4 md:px-6">
-          <div className="grid gap-1 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
+          <div className="grid gap-8 lg:grid-cols-[1fr_500px] xl:grid-cols-[1fr_700px]">
             <Link href={"/pass"}>
               <Image
                 alt="Cybersecurity Illustration"
-                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center"
-                height="650"
+                className="mx-auto rounded-2xl object-cover"
+                height="700"
                 src={pass}
-                width="550"
+                width="700"
               />
             </Link>
             <div className="flex flex-col justify-center space-y-4">
@@ -78,7 +77,7 @@ function Adventure() {
       </section>
       <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-gray-800">
         <div className="container px-4 md:px-6">
-          <div className="grid gap-1 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
+          <div className="grid gap-8 lg:grid-cols-[1fr_500px] xl:grid-cols-[1fr_700px]">
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-blue-400">
@@ -89,7 +88,7 @@ function Adventure() {
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                <Link href={"/phish"}>
+                <Link href={"/surfer"}>
                   <Button className="bg-blue-500 text-white hover:bg-blue-600 px-10">
                     Play
                   </Button>
@@ -99,10 +98,10 @@ function Adventure() {
             <Link href={"/surfer"}>
               <Image
                 alt="Cybersecurity Illustration"
-                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center"
-                height="650"
+                className="mx-auto rounded-2xl object-cover"
+                height="700"
                 src={surfer}
-                width="550"
+                width="700"
               />
             </Link>
           </div>
