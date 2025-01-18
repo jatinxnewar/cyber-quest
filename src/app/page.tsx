@@ -3,7 +3,7 @@ import { Input } from "@/components/ui/input";
 import { Zap, Users, Gamepad2 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import placeholder from "../../public/placeholder.svg";
+import placeholder from "../../public/placeholder.svg.png";
 import phish from "../../public/phish.jpg";
 import pass from "../../public/pass.jpg";
 import surfer from "../../public/surfer.jpg";
